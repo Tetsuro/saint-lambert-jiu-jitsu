@@ -11,13 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my Saint-Lambert Jiu-Jitsu Club!" />
+        <Header title="Saint-Lambert Jiu-Jitsu Club" />
         <p className="description">
-          Coming soon!
+          Coming soon
         </p>
       </main>
-
-      <Footer />
     </div>
   )
 }
