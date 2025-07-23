@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container p-8">
       <Head>
         <title>Saint-Lambert Jiu-Jitsu Club</title>
         <link rel="icon" href="/favicon.ico" />
