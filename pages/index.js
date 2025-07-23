@@ -20,9 +20,9 @@ export default function Home() {
         <title>Saint-Lambert Jiu-Jitsu Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="max-w-lg">
         <Header title="Saint-Lambert Jiu-Jitsu Club" />
-        <p className="description">
+        <p className="description mb-4">
           If you are interested, please use the form below to be added to the mailing list. We will contact you as soon as we are ready!
         </p>
         <div>
