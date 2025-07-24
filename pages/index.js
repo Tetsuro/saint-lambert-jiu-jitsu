@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className="container p-8">
+    <div className="container max-w-lg p-8">
     <Script
       id="show-banner"
       strategy="afterInteractive"
@@ -20,9 +20,9 @@ export default function Home() {
         <title>Saint-Lambert Jiu-Jitsu Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="max-w-lg">
+      <main>
         <Header title="Saint-Lambert Jiu-Jitsu Club" />
-        <p className="description mb-4">
+        <p className="description mb-8">
           If you are interested, please use the form below to be added to the mailing list. We will contact you as soon as we are ready!
         </p>
         <div>
