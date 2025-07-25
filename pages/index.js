@@ -1,10 +1,18 @@
 import Head from 'next/head'
-import Header from '@components/Header'
+import Link from 'next/link'
 import Script from 'next/script'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import Header from '@components/Header'
 
 export default function Home() {
+  const { t } = useTranslation('common')
+  const router = useRouter()
+
+  const changeTo = router.locale === 'en' ? 'fr' : 'en'
   return (
-    <div className="container max-w-lg p-8">
+    <div>
     <Script
       id="show-banner"
       strategy="afterInteractive"
@@ -20,10 +28,16 @@ export default function Home() {
         <title>Saint-Lambert Jiu-Jitsu Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <div className="px-8 py-4 text-right absolute w-full">
+        <Link href="/" locale={changeTo} className="hover:text-slate-500 hover:underline ">
+          {t('change-locale', { changeTo })}
+        </Link>
+      </div>
+      <main className="container max-w-lg p-8">
         <Header title="Saint-Lambert Jiu-Jitsu Club" />
         <p className="description mb-8">
-          If you are interested, please use the form below to be added to the mailing list. We will contact you as soon as we are ready!
+          {t('description')}
+          
         </p>
         <div>
           <div className="ml-embedded" data-form="937h89"></div>
@@ -32,3 +46,9 @@ export default function Home() {
     </div>
   )
 }
+
+export const getServerSideProps = async ({ locale }) => ({
+  props: {
+      ...(await serverSideTranslations(locale, ['common']))
+  }
+});
