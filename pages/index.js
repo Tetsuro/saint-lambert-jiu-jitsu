@@ -28,7 +28,7 @@ export default function Home() {
         <title>Saint-Lambert Jiu-Jitsu Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="px-8 py-4 text-right absolute w-full">
+      <div className="absolute top-4 right-4">
         <Link href="/" locale={changeTo} className="
           text-sm
           inline-block
