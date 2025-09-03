@@ -42,10 +42,13 @@ export default function Home() {
           {t('change-locale', { changeTo })}
         </Link>
       </div>
-      <main className="container max-w-[400px] px-8 text-slate-200">
+      <main className="container max-w-[400px] p-8 text-sm text-center text-slate-200">
         <Header title="Saint-Lambert Jiu-Jitsu Club" />
-        <p className="description mb-8 text-justify">
+        <p className="description mb-4">
           {t('description')}
+        </p>
+        <p className="description mb-8">
+          {t('sub_text')}
         </p>
         <div>
           <div className="ml-embedded" data-form="937h89"></div>
