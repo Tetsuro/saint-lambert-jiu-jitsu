@@ -25,7 +25,7 @@ export default function Home() {
         }}
         />
       <Head>
-        <title>Club de Jiu-Jitsu Saint-Lambert</title>
+        <title>Jiu-Jitsu Saint-Lambert</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"></link>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"></link> 
@@ -46,7 +46,7 @@ export default function Home() {
         </Link>
       </div>
       <main className="container max-w-[400px] p-8 text-sm text-center text-slate-200">
-        <Header title="Saint-Lambert Jiu-Jitsu Club" />
+        <Header title="Jiu-Jitsu Saint-Lambert" />
         <p className="description mb-4">
           {t('description')}
         </p>
