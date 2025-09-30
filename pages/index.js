@@ -46,17 +46,34 @@ export default function Home() {
           {t('change-locale', { changeTo })}
         </Link>
       </div>
-      <main className="container max-w-[400px] p-8 text-sm text-center text-slate-200">
-        <Header title="Jiu-Jitsu Saint-Lambert" />
-        <p className="description mb-4">
-          {t('description')}
-        </p>
-        <p className="description mb-8">
-          {t('sub_text')}
-        </p>
-        <div>
-          <div className="ml-embedded" data-form="937h89"></div>
-        </div>
+      <main className="container max-w-4xl p-8 text-sm text-slate-200">
+        <section className="w-full mb-8">
+          <h1 className="text-3xl mb-4 font-bold">
+            <img className="max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
+          </h1>
+        </section>
+        <section className="grid sm:gap-4 sm:grid-cols-2 items-center">
+          <div>
+            <h2 className="text-2xl font-semibold mb-4">
+              {t('description')}
+            </h2>
+            <p className="description mb-8">
+              {t('sub_text')}
+            </p>
+          </div>
+          <div>
+            <div className="ml-embedded" data-form="937h89"></div>
+          </div>
+        </section>
+        <section className="md:grid md:gap-4 md:grid-cols-2 items-center">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </section>
+
       </main>
     </div>
   )
