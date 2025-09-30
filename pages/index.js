@@ -32,7 +32,14 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
         <meta desc={t('meta_desc')} />
       </Head>
-      <div className="absolute top-4 right-4">
+
+      <main className="container max-w-4xl p-8 text-sm text-slate-200">
+        <section className="w-full mb-8 relative">
+          <h1 className="text-3xl text-center sm:text-left">
+            <img className="hidden sm:inline-block max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
+            <img className="inline-block sm:hidden max-w-36 max-h-36" src="/logo-circle.png" alt="Jiu-Jitsu Saint-Lambert" />
+          </h1>
+                <div className="absolute -top-4 -right-4 sm:top-0 sm:right-0">
         <Link href="/" locale={changeTo} className="
           text-sm
           inline-block
@@ -46,13 +53,8 @@ export default function Home() {
           {t('change-locale', { changeTo })}
         </Link>
       </div>
-      <main className="container max-w-4xl p-8 text-sm text-slate-200">
-        <section className="w-full mb-8">
-          <h1 className="text-3xl mb-4 font-bold">
-            <img className="max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
-          </h1>
         </section>
-        <section className="grid sm:gap-4 sm:grid-cols-2 items-center">
+        <section className="grid sm:gap-8 sm:grid-cols-2 items-center">
           <div>
             <h2 className="text-2xl font-semibold mb-4">
               {t('description')}
