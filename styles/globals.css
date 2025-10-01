@@ -31,6 +31,8 @@ code {
 }
 
 @layer base {
+
+  
   p {
     a {
       text-decoration: underline;
@@ -40,20 +42,14 @@ code {
         color: var(--color-blue-400);
       }
     }
-  }
-
-  p {
     margin-bottom: --spacing(4);
   }
 
   section {
     margin-bottom: --spacing(16);
+
     @screen sm {
       margin-bottom: --spacing(8);
-    }
-
-    &:last-child {
-      margin-bottom: 0;
     }
   }
 }
