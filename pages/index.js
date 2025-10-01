@@ -72,7 +72,7 @@ export default function Home() {
         {/* Bio */}
         <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
           <div>
-            <img className="" src="/bio.jpeg" alt="Jiu-Jitsu Saint-Lambert" />
+            <img className="mb-4 sm:mb-0 rounded-lg" src="/bio.jpeg" alt="Tetsuro and his boy after a BJJ competion." />
 
           </div>
           <div>
