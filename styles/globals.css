@@ -47,6 +47,13 @@ code {
   }
 
   section {
-    margin-bottom: --spacing(8);
+    margin-bottom: --spacing(16);
+    @screen sm {
+      margin-bottom: --spacing(8);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

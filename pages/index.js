@@ -48,6 +48,7 @@ export default function Home() {
           border-slate-300
           rounded-2xl
           text-slate-300
+          text-
           hover:border-slate-400
           hover:text-slate-400">
           {t('change-locale', { changeTo })}
@@ -82,9 +83,9 @@ export default function Home() {
 
         {/* Map */}
 
-        <section>
+        {/* <section> */}
           {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.327883192133!2d-73.51274982330087!3d45.50347783081646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ad76bb5be99%3A0x174808b0b71a4afa!2s485%20Av.%20Birch%2C%20Saint-Lambert%2C%20QC%20J4P%202M7!5e0!3m2!1sen!2sca!4v1759318617168!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-        </section>
+        {/* </section> */}
 
       </main>
     </div>
