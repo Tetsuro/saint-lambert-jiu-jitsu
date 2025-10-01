@@ -32,6 +32,17 @@ code {
 
 @layer base {
   p {
+    a {
+      text-decoration: underline;
+      color: var(--color-blue-300);
+  
+      &:hover {
+        color: var(--color-blue-400);
+      }
+    }
+  }
+
+  p {
     margin-bottom: --spacing(4);
   }
 

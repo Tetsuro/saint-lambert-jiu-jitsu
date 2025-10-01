@@ -76,7 +76,7 @@ export default function Home() {
 
           </div>
           <div>
-            <Trans i18nKey="bio" components={{ 1: <p /> }} />
+            <Trans i18nKey="bio" components={{ 1: <p />, 2: <a target="_blank" href="https://mizustudio.ca/" /> }} />
           </div>
         </section>
 
