@@ -29,3 +29,13 @@ code {
 .container {
   margin: 0 auto;
 }
+
+@layer base {
+  p {
+    margin-bottom: --spacing(4);
+  }
+
+  section {
+    margin-bottom: --spacing(8);
+  }
+}
