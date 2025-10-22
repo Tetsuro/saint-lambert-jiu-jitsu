@@ -73,8 +73,8 @@ export default function Home() {
 
         {/* Map */}
         <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
-          <div className="rounded-lg overflow-hidden">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.327883192133!2d-73.51274982330087!3d45.50347783081646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ad76bb5be99%3A0x174808b0b71a4afa!2s485%20Av.%20Birch%2C%20Saint-Lambert%2C%20QC%20J4P%202M7!5e0!3m2!1sen!2sca!4v1759318617168!5m2!1sen!2sca" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className="rounded-lg overflow-hidden mb-4 md:mb-0">
+           <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=385 av birch&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
           </div>
           <div>
             {t('location_desc')}
