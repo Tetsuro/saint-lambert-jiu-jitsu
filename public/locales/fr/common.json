@@ -1,9 +1,11 @@
 {
     "description": "Jiu-Jitsu Saint-Lambert est une école en développement destinée aux enfants ainsi qu’aux adultes débutants.",
-    "sub_text": "Nous évaluons actuellement l’intérêt dans la région et cherchons un lieu pour offrir nos cours. Si vous souhaitez rester informé, veuillez vous inscrire à notre liste d’envoi en remplissant le formulaire.",
+    "sub_text": "Nous évaluons actuellement l’intérêt dans la région. Si vous souhaitez rester informé, veuillez vous inscrire à notre liste d’envoi en remplissant le formulaire.",
     "change-locale": "English",
     "meta_desc": "Jiu-Jitsu Saint-Lambert est un club de Jiu-Jitsu Brésilien situé à Saint-Lambert, Québec.",
     "bio": "<1>Tetsuro a commencé à s'entraîner au jiu-jitsu brésilien en 2016 et est depuis devenu accro à ce sport. Son objectif est de partager son amour pour ce sport avec les enfants et les adultes de son quartier.</1> <1>Tetsuro a obtenu sa ceinture mauve de Val Astraverkhau au <2>Mizu Studio</2> en 2022 et continue à s'entraîner régulièrement.</1>",
-    "contact_us": "Nous contacter"
+    "contact_us": "Nous contacter",
+    "location": "Location",
+    "location_desc": "Les cours auront lieu dans le sous-sol du Christian Education Centre, situé au 485 av. Birch."
 
 }
