@@ -13,17 +13,6 @@ export default function Home() {
   const changeTo = router.locale === 'en' ? 'fr' : 'en'
   return (
     <div>
-      <Script
-        id="show-banner"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-            __html: `(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-      ml('account', '1686257');`,
-        }}
-        />
       <Head>
         <title>Jiu-Jitsu Saint-Lambert</title>
         <link rel="icon" href="/favicon.ico" />
@@ -34,7 +23,7 @@ export default function Home() {
       </Head>
 
       <main className="container max-w-4xl p-8 text-sm text-slate-200">
-        <section className="w-full mb-8 relative">
+        <section className="w-full mb-8 md:mb-16 relative">
           <h1 className="text-3xl text-center sm:text-left">
             <img className="hidden sm:inline-block max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
             <img className="inline-block sm:hidden max-w-48 max-h-48" src="/logo-circle.png" alt="Jiu-Jitsu Saint-Lambert" />
@@ -56,18 +45,21 @@ export default function Home() {
       </div>
         </section>
         {/* Intro */}
-        <section className="grid sm:gap-8 sm:grid-cols-2 items-center">
-          <div>
+        <section className="w-full flex justify-center">
+          <div className="md:max-w-1/2 text-center">
             <h2 className="text-2xl font-semibold mb-4">
               {t('description')}
             </h2>
             <p className="description mb-8">
               {t('sub_text')}
             </p>
+            <p>
+              <a className="cta" href="https://calendly.com/jiujitsusaintlambert" target="_blank">
+                {t('book_now')}
+              </a> 
+            </p>
           </div>
-          <div>
-            <div className="ml-embedded" data-form="937h89"></div>
-          </div>
+
         </section>
 
 
@@ -94,7 +86,7 @@ export default function Home() {
 
 
         <section>
-          <a className="flex items-center rounded-sm bg-red-600 hover:bg-red-500 font-bold p-4" href="mailto:jiujitsusaintlambert@gmail.com">
+          <a className="cta" href="mailto:jiujitsusaintlambert@gmail.com">
             <img src="/mail.svg" className="inline-block mr-1" />
             {t('contact_us')}
           </a>
