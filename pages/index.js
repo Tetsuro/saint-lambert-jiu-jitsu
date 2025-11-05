@@ -22,7 +22,7 @@ export default function Home() {
         <meta desc={t('meta_desc')} />
       </Head>
 
-      <main className="container max-w-4xl p-8 text-sm text-slate-200">
+      <main className="container max-w-3xl p-8 text-sm text-slate-200">
         <section className="w-full mb-8 md:mb-16 relative">
           <h1 className="text-3xl text-center sm:text-left">
             <img className="hidden sm:inline-block max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
@@ -46,10 +46,10 @@ export default function Home() {
         </section>
         {/* Intro */}
         <section className="w-full flex justify-center">
-          <div className="md:max-w-1/2 text-center">
-            <h2 className="text-2xl font-semibold mb-4">
+          <div className="md:max-w-3/4 text-center">
+            <h1 className="text-2xl font-semibold mb-4">
               {t('description')}
-            </h2>
+            </h1>
             <p className="description mb-8">
               {t('sub_text')}
             </p>
@@ -64,18 +64,24 @@ export default function Home() {
 
 
         {/* Map */}
-        <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
-          <div className="rounded-lg overflow-hidden mb-4 md:mb-0">
-           <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=485 av birch, saint-lambert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
+        <section className="md:grid md:gap-8 md:grid-cols-2">
+          <div>
+            <h2 className='text-2xl font-semibold mb-4'>{t('location')}</h2>
+            <p>
+              {t('location_desc')}
+            </p>
           </div>
           <div>
-            {t('location_desc')}
+            <div className="rounded-lg overflow-hidden mb-4 md:mb-0">
+              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=485 av birch, saint-lambert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
+            </div>
           </div>
          </section>
 
         {/* Bio */}
-        <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
+        <section className="md:grid md:gap-8 md:grid-cols-2">
           <div>
+            <h2 className='text-2xl font-semibold mb-4'>{t('about')}</h2>
             <Trans i18nKey="bio" components={{ 1: <p />, 2: <a target="_blank" href="https://mizustudio.ca/" /> }} />
           </div>
           <div>
