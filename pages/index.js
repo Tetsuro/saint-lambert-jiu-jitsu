@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Script from 'next/script'
 import { useRouter } from 'next/router'
-import { useTranslation, Trans } from 'next-i18next'
+import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Header from '@components/Header'
+import Intro from '@components/Intro'
+import Location from '@components/Location'
+import Bio from '@components/Bio'
 
 export default function Home() {
   const { t } = useTranslation('common')
@@ -23,74 +24,10 @@ export default function Home() {
       </Head>
 
       <main className="container max-w-3xl p-8 text-sm text-slate-200">
-        <section className="w-full mb-8 md:mb-16 relative">
-          <h1 className="text-3xl text-center sm:text-left">
-            <img className="hidden sm:inline-block max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
-            <img className="inline-block sm:hidden max-w-48 max-h-48" src="/logo-circle.png" alt="Jiu-Jitsu Saint-Lambert" />
-          </h1>
-                <div className="absolute -top-4 -right-4 sm:top-0 sm:right-0">
-        <Link href="/" locale={changeTo} className="
-          text-sm
-          inline-block
-          px-4 py-1
-          border
-          border-slate-300
-          rounded-2xl
-          text-slate-300
-          text-
-          hover:border-slate-400
-          hover:text-slate-400">
-          {t('change-locale', { changeTo })}
-        </Link>
-      </div>
-        </section>
-        {/* Intro */}
-        <section className="w-full flex justify-center">
-          <div className="md:max-w-3/4 text-center">
-            <h1 className="text-2xl font-semibold mb-4">
-              {t('description')}
-            </h1>
-            <p className="description mb-8">
-              {t('sub_text')}
-            </p>
-            <p>
-              <a className="cta" href="https://calendly.com/jiujitsusaintlambert" target="_blank">
-                {t('book_now')}
-              </a> 
-            </p>
-          </div>
-
-        </section>
-
-
-        {/* Map */}
-        <section className="md:grid md:gap-8 md:grid-cols-2">
-          <div>
-            <h2 className='text-2xl font-semibold mb-4'>{t('location')}</h2>
-            <p>
-              {t('location_desc')}
-            </p>
-          </div>
-          <div>
-            <div className="rounded-lg overflow-hidden mb-4 md:mb-0">
-              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=485 av birch, saint-lambert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
-            </div>
-          </div>
-         </section>
-
-        {/* Bio */}
-        <section className="md:grid md:gap-8 md:grid-cols-2">
-          <div>
-            <h2 className='text-2xl font-semibold mb-4'>{t('about')}</h2>
-            <Trans i18nKey="bio" components={{ 1: <p />, 2: <a target="_blank" href="https://mizustudio.ca/" /> }} />
-          </div>
-          <div>
-            <img className="mb-4 sm:mb-0 rounded-lg" src="/bio.jpeg" alt="Tetsuro and his boy after a BJJ competion." />
-          </div>
-
-        </section>
-
-
+        <Header />
+        <Intro />
+        <Location />
+        <Bio />
         <section>
           <a className="cta" href="mailto:jiujitsusaintlambert@gmail.com">
             <img src="/mail.svg" className="inline-block mr-1" />
