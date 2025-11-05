@@ -9,13 +9,13 @@ export default function Intro() {
         <h1 className="text-2xl font-semibold mb-4">
           {t('description')}
         </h1>
-        <p className="description mb-8">
+        <p className="description">
           {t('sub_text')}
         </p>
         <p>
-        <a className="cta" href="https://calendly.com/jiujitsusaintlambert" target="_blank">
+        {/* <a className="cta" href="https://calendly.com/jiujitsusaintlambert" target="_blank">
           {t('book_now')}
-        </a> 
+        </a>  */}
         </p>
       </div>
     </section>

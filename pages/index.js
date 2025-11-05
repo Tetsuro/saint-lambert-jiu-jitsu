@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Header from '@components/Header'
 import Intro from '@components/Intro'
+import Pricing from '@components/Pricing'
 import Location from '@components/Location'
 import Bio from '@components/Bio'
 
@@ -26,6 +27,7 @@ export default function Home() {
       <main className="container max-w-3xl p-8 text-sm text-slate-200">
         <Header />
         <Intro />
+        <Pricing />
         <Location />
         <Bio />
         <section>
