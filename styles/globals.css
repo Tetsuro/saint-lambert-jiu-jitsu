@@ -62,14 +62,13 @@ code {
   }
   color: var(--color-white);
   font-weight: bold;
-  padding: --spacing(4);
+  padding: --spacing(2) --spacing(4);
   text-decoration: none;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-xl);
   display: inline-flex;
   align-items: center;
 
   &.small {
-    padding: --spacing(2) --spacing(4);
     border-radius: var(--radius-lg);
     width: 100%;
     justify-content: center;
