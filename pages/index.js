@@ -94,7 +94,7 @@ export default function Home() {
 
 
         <section>
-          <a className="flex items-center rounded-sm bg-red-600 hover:bg-red-500 font-bold p-4" href="mailto:jiujitsusaintlambert@gmail.com">
+          <a className="flex items-center rounded-sm bg-red-600 hover:bg-red-500 font-bold p-4" href="mailto:info@jiujitsusaintlambert.ca">
             <img src="/mail.svg" className="inline-block mr-1" />
             {t('contact_us')}
           </a>
