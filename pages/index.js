@@ -31,7 +31,7 @@ export default function Home() {
         <Location />
         <Bio />
         <section>
-          <a className="cta" href="mailto:jiujitsusaintlambert@gmail.com">
+          <a className="cta" href="mailto:info@jiujitsusaintlambert.ca">
             <img src="/mail.svg" className="inline-block mr-1" />
             {t('contact_us')}
           </a>
