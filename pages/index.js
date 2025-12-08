@@ -72,6 +72,7 @@ export default function Home() {
 
 
         {/* Map */}
+        {/* 
         <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
           <div className="rounded-lg overflow-hidden mb-4 md:mb-0">
            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=485 av birch, saint-lambert&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
@@ -80,14 +81,14 @@ export default function Home() {
             {t('location_desc')}
           </div>
          </section>
-
+        */}
         {/* Bio */}
         <section className="md:grid md:gap-8 md:grid-cols-2 items-center">
           <div>
-            <Trans i18nKey="bio" components={{ 1: <p />, 2: <a target="_blank" href="https://mizustudio.ca/" /> }} />
+            <img className="mb-4 sm:mb-0 rounded-lg" src="/bio.jpeg" alt="Tetsuro and his boy after a BJJ competion." />
           </div>
           <div>
-            <img className="mb-4 sm:mb-0 rounded-lg" src="/bio.jpeg" alt="Tetsuro and his boy after a BJJ competion." />
+            <Trans i18nKey="bio" components={{ 1: <p />, 2: <a target="_blank" href="https://mizustudio.ca/" /> }} />
           </div>
 
         </section>
