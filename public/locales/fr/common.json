@@ -6,14 +6,15 @@
     "bio": "<1>Tetsuro a commencé à s'entraîner au jiu-jitsu brésilien en 2016 et est depuis devenu accro à ce sport. Son objectif est de partager son amour pour ce sport avec les enfants et les adultes de son quartier.</1> <1>Tetsuro a obtenu sa ceinture mauve de Val Astraverkhau au <2>Mizu Studio</2> en 2022 et continue à s'entraîner régulièrement.</1>",
     "contact_us": "Nous contacter",
     "location": "Adresse",
-    "location_desc": "Les cours ont lieu à <1>Ballet Hop! Saint-Lambert</1>, situé au <2>300A rue d’Arran.</2>.",
+    "location_desc": "Les cours ont lieu à <1>Ballet Hop! Saint-Lambert</1>, situé au <2>300A rue d’Arran</2>.",
     "book_now": "Réservez un cours",
     "about": "À propos",
     "session": "cours",
     "kids_heading": "Cours d'enfants",
     "kids_age": "Pour les enfants âgés de 4 à 6 ans",
-    "kids_time": "Lundis de 17h à 18h",
+    "kids_time": "Vendredis de 17h à 17h45",
     "adults_heading": "Cours d'adultes débutant(e)s",
     "adults_beginner": "Aucune expérience requise",
-    "adults_time": "Vendredis de 17h à 18h30"
+    "adults_time": "Vendredis de 17h à 18h30",
+    "coming_soon": "Bientôt disponible"
 }

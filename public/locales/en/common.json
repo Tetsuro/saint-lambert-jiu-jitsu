@@ -6,14 +6,15 @@
     "bio":"<1>Tetsuro started training Brazilian jiu-jitsu in 2016 and has been hooked ever since. His goal is to share his love of the sport to kids and adults in the neighbourhood.</1> <1>Tetsuro received his purple belt from Val Astraverkhau at <2>Mizu Studio</2> in 2022 and continues to learn and train regularly.</1>",
     "contact_us": "Contact us",
     "location": "Location",
-    "location_desc": "Classes take place at <1>Ballet Hop! Saint-Lambert</1>, located at <2>300A rue d’Arran.</2>",
+    "location_desc": "Classes take place at <1>Ballet Hop! Saint-Lambert</1>, located at <2>300A rue d’Arran</2>.",
     "book_now": "Book a class",
     "about": "About us",
     "session": "class",
     "kids_heading": "Children's classes",
     "kids_age": "For children aged 4 to 6",
-    "kids_time": "Mondays from 5:00pm to 6:00pm",
+    "kids_time": "Mondays from 5:00pm to 5:45pm",
     "adults_heading": "Beginner adult classes",
     "adults_beginner": "No experience necessary",
-    "adults_time": "Fridays from 5:00pm to 6:30pm"
+    "adults_time": "Fridays from 5:00pm to 6:30pm",
+    "coming_soon": "Coming soon"
 }
