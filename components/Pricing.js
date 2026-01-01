@@ -13,7 +13,6 @@ export default function Pricing() {
         <h3>{t('kids_heading')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
         <ul>
-          <li>{t('kids_age')}</li>
           <li>{t('kids_time')}</li>
         </ul>
         {/* <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/new-meeting" target="_blank">
@@ -22,12 +21,11 @@ export default function Pricing() {
          */}
         <button className="cta small">{t('coming_soon')}</button> 
       </div>
-      <div>
-        <h3>{t('adults_heading')}</h3>
+            <div>
+        <h3>{t('kids_heading_2')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
         <ul>
-          <li>{t('adults_beginner')}</li>
-          <li>{t('adults_time')}</li>
+          <li>{t('kids_time_2')}</li>
         </ul>
         {/* <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/adult-class" target="_blank">
           {t('coming_soon')}

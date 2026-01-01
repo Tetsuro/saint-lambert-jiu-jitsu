@@ -10,11 +10,13 @@
     "book_now": "Réservez un cours",
     "about": "À propos",
     "session": "cours",
-    "kids_heading": "Cours d'enfants",
+    "kids_heading": "Cours d'enfants (4 à 6 ans)",
     "kids_age": "Pour les enfants âgés de 4 à 6 ans",
     "kids_time": "Vendredis de 17h à 17h45",
+    "kids_heading_2": "Cours d'enfants (7 à 12 ans)",
+    "kids_time_2": "Vendredis de 18h à 19h",
     "adults_heading": "Cours d'adultes débutant(e)s",
-    "adults_beginner": "Aucune expérience requise",
+    "no_experience": "Aucune expérience requise",
     "adults_time": "Vendredis de 17h à 18h30",
     "coming_soon": "Bientôt disponible"
 }
