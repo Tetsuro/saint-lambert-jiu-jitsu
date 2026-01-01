@@ -1,11 +1,27 @@
 {
-    "description": "Jiu-Jitsu Saint-Lambert est une école en développement destinée aux enfants ainsi qu’aux adultes débutants.",
-    "sub_text": "Nous évaluons actuellement l’intérêt dans la région et cherchons un lieu pour offrir nos cours. Si vous souhaitez rester informé, veuillez vous inscrire à notre liste d’envoi en remplissant le formulaire.",
+    "description": "Bienvenue au Jiu-Jitsu Saint-Lambert",
+    "sub_text": "Nous offrons des cours de jiu-jitsu brésilien dans un environnement amical, accueillant et inclusif.",
     "change-locale": "English",
     "meta_desc": "Jiu-Jitsu Saint-Lambert est un club de Jiu-Jitsu Brésilien situé à Saint-Lambert, Québec.",
     "bio": "<1>Tetsuro a commencé à s'entraîner au jiu-jitsu brésilien en 2016 et est depuis devenu accro à ce sport. Son objectif est de partager son amour pour ce sport avec les enfants et les adultes de son quartier.</1> <1>Tetsuro a obtenu sa ceinture mauve de Val Astraverkhau au <2>Mizu Studio</2> en 2022 et continue à s'entraîner régulièrement.</1>",
     "contact_us": "Nous contacter",
-    "location": "Location",
-    "location_desc": "Les cours auront lieu dans le sous-sol du Christian Education Centre, situé au 485 av. Birch."
-
+    "location": "Adresse",
+    "location_desc": "Les cours ont lieu à <1>Ballet Hop! Saint-Lambert</1>, situé au <2>300A rue d’Arran</2>.",
+    "book_now": "Réservez un cours",
+    "about": "À propos",
+    "session": "cours",
+    "kids_heading": "Cours d'enfants (4 à 6 ans)",
+    "kids_age": "Pour les enfants âgés de 4 à 6 ans",
+    "kids_time": "Vendredis de 17h à 17h45",
+    "kids_heading_2": "Cours d'enfants (7 à 12 ans)",
+    "kids_time_2": "Vendredis de 18h à 19h",
+    "adults_heading": "Cours d'adultes débutant(e)s",
+    "no_experience": "Aucune expérience requise",
+    "adults_time": "Vendredis de 17h à 18h30",
+    "coming_soon": "Bientôt disponible",
+    "information": "Information",
+    "info_exp": "Aucune expérience requise.",
+    "info_gi": "Veuillez apporter un gi et une ceinture (ne pas nécessaire pour le cours d'essai).",
+    "info_free": "Le premier cours est gratuit - veuillez <1>envoyer un courriel</1> à l'avance car les places sont limitées.",
+    "info_more": "D'autres cours seront ajoutés à l'avenir en fonction de la demande et de la disponibilité des locaux."
 }
