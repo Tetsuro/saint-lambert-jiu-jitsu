@@ -7,6 +7,7 @@ import Intro from '@components/Intro'
 import Pricing from '@components/Pricing'
 import Location from '@components/Location'
 import Bio from '@components/Bio'
+import Info from '@components/Info'
 
 export default function Home() {
   const { t } = useTranslation('common')
@@ -28,6 +29,7 @@ export default function Home() {
         <Header />
         <Intro />
         <Pricing />
+        <Info />
         <Location />
         <Bio />
         <section>
