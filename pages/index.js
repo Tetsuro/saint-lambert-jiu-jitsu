@@ -25,7 +25,7 @@ export default function Home() {
         <meta desc={t('meta_desc')} />
       </Head>
 
-      <main className="container max-w-3xl p-8 text-sm text-slate-200">
+      <main className="container max-w-3xl p-8 text-slate-200">
         <Header />
         <Intro />
         <Pricing />

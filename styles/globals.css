@@ -7,6 +7,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: var(--text-base);
+
 }
 
 * {
@@ -118,6 +120,9 @@ li {
 
 
 @variant sm {
+  body {
+    font-size: var(--text-sm);
+  }
   li {
     margin-left: 0;
   }
