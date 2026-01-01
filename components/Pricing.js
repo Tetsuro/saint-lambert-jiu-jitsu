@@ -12,9 +12,7 @@ export default function Pricing() {
       <div className="mb-4 md:mb-0">
         <h3>{t('kids_heading')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
-        <ul>
-          <li>{t('kids_time')}</li>
-        </ul>
+        <p>{t('kids_time')}</p>
         {/* <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/new-meeting" target="_blank">
           {t('book_now')}
         </a> 
@@ -24,9 +22,8 @@ export default function Pricing() {
             <div>
         <h3>{t('kids_heading_2')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
-        <ul>
-          <li>{t('kids_time_2')}</li>
-        </ul>
+        <p>{t('kids_time_2')}</p>
+
         {/* <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/adult-class" target="_blank">
           {t('coming_soon')}
         </a> */}
