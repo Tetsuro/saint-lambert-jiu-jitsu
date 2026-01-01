@@ -19,5 +19,9 @@
     "no_experience": "No experience necessary",
     "adults_time": "Fridays from 5:00pm to 6:30pm",
     "coming_soon": "Coming soon",
-    "information": "Information"
+    "information": "Information",
+    "info_exp": "No experience necessary.",
+    "info_gi": "Please bring a gi and belt (not necessary for trial class).",
+    "info_free": "First class is free - please <1>email</1> beforehand as space is limited.",
+    "info_more": "More classes to be added in the future based on demand and rental space availability."
 }

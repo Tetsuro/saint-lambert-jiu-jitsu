@@ -1,4 +1,4 @@
-import { useTranslation } from 'next-i18next'
+import { useTranslation, Trans } from 'next-i18next'
 
 export default function Info() {
   const { t } = useTranslation('common')
@@ -10,12 +10,11 @@ export default function Info() {
       </div>
       <div>
         <ul className="list-disc">
-          <li>No experience necessary.</li>
-          <li>Please bring a gi and belt (not necessary for trial class).</li>
-          <li>First class is free - please email beforehand as space is limited.</li>
-          <li>More classes to be added in the future based on demand and rental space availability.</li>
+          <li>{t('info_exp')}</li>
+          <li>{t('info_gi')}</li>
+          <li><Trans i18nKey="info_free" components={{ 1: <a href="mailto:info@jiujitsusaintlambert.ca" />}} /></li>
+          <li>{t('info_more')}</li>
         </ul>
-
       </div>
     </section>
   )

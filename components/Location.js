@@ -8,7 +8,6 @@ export default function Location() {
       <div>
         <h2 className='text-2xl font-semibold mb-4'>{t('location')}</h2>
         <p>
-          {/* {t('location_desc')} */}
           <Trans i18nKey="location_desc" components={{ 1: <a target="_blank" href="https://ballethop.com/saint-lambert" />, 2: <a href="https://maps.app.goo.gl/hwQXF7VADMWRfiWS6" target="_blank" /> }} />
         </p>
       </div>

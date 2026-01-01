@@ -19,6 +19,9 @@
     "no_experience": "Aucune expérience requise",
     "adults_time": "Vendredis de 17h à 18h30",
     "coming_soon": "Bientôt disponible",
-    "information": "Information"
-
+    "information": "Information",
+    "info_exp": "Aucune expérience requise.",
+    "info_gi": "Veuillez apporter un gi et une ceinture (ne pas nécessaire pour le cours d'essai).",
+    "info_free": "Le premier cours est gratuit - veuillez <1>envoyer un courriel</1> à l'avance car les places sont limitées.",
+    "info_more": "D'autres cours seront ajoutés à l'avenir en fonction de la demande et de la disponibilité des locaux."
 }

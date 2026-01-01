@@ -36,7 +36,7 @@ li {
 }
 
 @layer base {
-  p {
+  p, li {
     a {
       text-decoration: underline;
       color: var(--color-blue-300);
