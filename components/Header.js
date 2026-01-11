@@ -9,7 +9,7 @@ export default function Header() {
   const changeTo = router.locale === 'en' ? 'fr' : 'en'
   return (
     <section className="w-full mb-8 md:mb-16 relative">
-      <span className="text-3xl text-center sm:text-left">
+      <span className="text-3xl text-center sm:text-left block">
         <img className="hidden sm:inline-block max-w-48 max-h-48" src="/logo.png" alt="Jiu-Jitsu Saint-Lambert" />
         <img className="inline-block sm:hidden max-w-48 max-h-48" src="/logo-circle.png" alt="Jiu-Jitsu Saint-Lambert" />
       </span>

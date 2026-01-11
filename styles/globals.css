@@ -114,13 +114,15 @@ li {
 
 footer {
   display: flex;
-  flex-direction: column; 
 
   a {
     color: var(--color-slate-400);
     display: flex;
     align-items: center;
-    margin-bottom: --spacing(2);
+
+    &:first-child {
+      margin-right: --spacing(6);
+    }
 
     &:hover {
       color: var(--color-white);
@@ -131,7 +133,7 @@ footer {
 
     svg {
       display: inline-block;
-      margin-right: --spacing(2);
+      margin-right: --spacing(1);
       fill: var(--color-slate-400);
     }
   }
@@ -155,14 +157,5 @@ footer {
     margin-bottom: --spacing(16);
   }
 
-  footer {
-    flex-direction: row; 
-
-    a{
-      &:first-child {
-        margin-bottom: 0;
-        margin-right: --spacing(8);
-      }
-    }
-  }
+  
 }
