@@ -112,6 +112,31 @@ li {
   }
 }
 
+footer {
+  display: flex;
+  a {
+    color: var(--color-slate-400);
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      margin-right: --spacing(8);
+    }
+
+    &:hover {
+      color: var(--color-white);
+      svg {
+        fill: var(--color-white);
+      }
+    }
+
+    svg {
+      display: inline-block;
+      margin-right: --spacing(2);
+      fill: var(--color-slate-400);
+    }
+  }
+}
 
 
 .mapouter{position:relative;text-align:right;width:100%;height:300px;}
@@ -119,6 +144,7 @@ li {
 .gmap_iframe {height:300px!important;}
 
 
+/* Small and up */
 @variant sm {
   body {
     font-size: var(--text-sm);
@@ -128,5 +154,9 @@ li {
   }
   section{
     margin-bottom: --spacing(16);
+  }
+
+  footer {
+
   }
 }
