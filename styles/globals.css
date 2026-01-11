@@ -114,14 +114,13 @@ li {
 
 footer {
   display: flex;
+  flex-direction: column; 
+
   a {
     color: var(--color-slate-400);
     display: flex;
     align-items: center;
-
-    &:first-child {
-      margin-right: --spacing(8);
-    }
+    margin-bottom: --spacing(2);
 
     &:hover {
       color: var(--color-white);
@@ -157,6 +156,13 @@ footer {
   }
 
   footer {
+    flex-direction: row; 
 
+    a{
+      &:first-child {
+        margin-bottom: 0;
+        margin-right: --spacing(8);
+      }
+    }
   }
 }
