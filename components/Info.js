@@ -12,7 +12,7 @@ export default function Info() {
         <ul className="list-disc">
           <li>{t('info_exp')}</li>
           <li>{t('info_gi')}</li>
-          <li><Trans i18nKey="info_free" components={{ 1: <a href="mailto:info@jiujitsusaintlambert.ca" />}} /></li>
+          <li><Trans i18nKey="info_free" components={{ 1: <a href="mailto:jiujitsusaintlambert@gmail.com" />}} /></li>
           <li>{t('info_more')}</li>
         </ul>
       </div>
