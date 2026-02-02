@@ -28,6 +28,9 @@ export default function Home() {
       <main className="container max-w-3xl p-8 text-slate-200">
         <Header />
         <Intro />
+        <section>
+          <img src="mat-space.jpeg" alt="Inside the mat space of Jiu-Jitsu Saint-Lambert. A mat space of 18 by 18 feet." className="rounded-lg"/>
+        </section>
         <Pricing />
         <Info />
         <Location />

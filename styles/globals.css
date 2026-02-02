@@ -80,6 +80,16 @@ li {
   }
 }
 
+.cta--disabled {
+  background-color: transparent;
+  border: 1px solid var(--color-gray-600);
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+
 
 .pricing {
   width: 100%;
