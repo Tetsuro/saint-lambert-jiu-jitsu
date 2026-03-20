@@ -12,22 +12,24 @@ export default function Pricing() {
       <div className="mb-4 md:mb-0">
         <h3>{t('kids_heading')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
-        <p>{t('kids_time')}</p>
+        <ul>
+          <li>{t('kids_time')}</li>
+          <li>{t('info_free_kids')}</li>
+        </ul>
         <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/new-meeting" target="_blank">
           {t('book_now')}
         </a> 
-        
-        {/* <button className="cta small">{t('coming_soon')}</button>  */}
       </div>
-            <div>
-        <h3>{t('kids_heading_2')}</h3>
+      <div>
+        <h3>{t('adults_heading')}</h3>
         <div className="price"><strong>$10</strong><span>/ {t('session')}</span></div>
-        <p>{t('kids_time_2')}</p>
-
-        {/* <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/adult-class" target="_blank">
-          {t('coming_soon')}
-        </a> */}
-        <button disabled className="cta cta--disabled small">{t('coming_soon')}</button> 
+        <ul>
+          <li>{t('adults_time')}</li>
+          <li>{t('info_free_adults')}</li>
+        </ul>
+        <a className="cta small" href="https://calendly.com/jiujitsusaintlambert/adult-class" target="_blank">
+          {t('book_now')}
+        </a>
       </div>
     </section>
   )
