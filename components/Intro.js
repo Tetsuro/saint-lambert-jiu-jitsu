@@ -12,6 +12,9 @@ export default function Intro() {
         <p className="description">
           {t('sub_text')}
         </p>
+        <p className="description">
+          {t('hiatus')}
+        </p>
         <p>
         {/* <a className="cta" href="https://calendly.com/jiujitsusaintlambert" target="_blank">
           {t('book_now')}

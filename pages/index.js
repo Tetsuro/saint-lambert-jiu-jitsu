@@ -31,9 +31,9 @@ export default function Home() {
         <section>
           <img src="mat-space.jpeg" alt="Inside the mat space of Jiu-Jitsu Saint-Lambert. A mat space of 18 by 18 feet." className="rounded-lg"/>
         </section>
-        <Pricing />
+        {/* <Pricing />
         <Info />
-        <Location />
+        <Location /> */}
         <Bio />
         <section>
         </section>
